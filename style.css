@@ -1,0 +1,36 @@
+/* Basic page setup */
+body {
+    margin: 0;
+    padding: 60px;
+    font-family: Arial, sans-serif;
+    background: #f5f3ef;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+/* Main name */
+h1 {
+    font-size: 64px;
+    margin: 0 0 10px;
+    letter-spacing: -2px;
+}
+
+/* Job title */
+h1 + p {
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 80px;
+}
+
+/* Section headings */
+h2 {
+    font-size: 32px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 18px;
+    max-width: 800px;
+}
