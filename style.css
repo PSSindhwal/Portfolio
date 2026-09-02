@@ -391,13 +391,18 @@ footer {
 }
 
   #work .work-grid {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
 
   #work .work-card {
-    padding: 34px 28px;
-    min-height: 240px;
+    background: #eeece7;
+    border: 1px solid #d8d5cf;
+    padding: 48px;
+    min-height: 260px;
+    box-sizing: border-box;
+
   }
 
   #work .work-info h3 {
