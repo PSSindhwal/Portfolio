@@ -290,7 +290,24 @@ footer {
     margin-top: 35px;
     font-size: 16px;
 }
+#work .work-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
 
+  #work .work-card {
+    background: #eeece7;
+    border: 1px solid #d8d5cf;
+    padding: 48px;
+    min-height: 260px;
+    box-sizing: border-box;
+
+  }
+
+  #work .work-info h3 {
+    font-size: 25px;
+  }
 
 /* Mobile */
 
@@ -390,22 +407,4 @@ footer {
   max-width: 600px;
 }
 
-  #work .work-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-}
-
-  #work .work-card {
-    background: #eeece7;
-    border: 1px solid #d8d5cf;
-    padding: 48px;
-    min-height: 260px;
-    box-sizing: border-box;
-
-  }
-
-  #work .work-info h3 {
-    font-size: 25px;
-  }
 }
